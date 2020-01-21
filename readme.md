@@ -4,7 +4,6 @@ Some of technologies specified in the task, exactly Webpack and templates engine
 This was my first really complex plugin and, not being in the business, I interpretated the request due my comprension.
 Ps: I powered this in twentynineteen theme.
 
----
 
 # Files
 
@@ -17,7 +16,7 @@ index.php - Define global vars, import required files, register scripts and styl
 /css - Stylesheets
 /js - Scripts
 
----
+
 
 # Init
 
@@ -27,7 +26,7 @@ The big part of the program is in /js/filters.js.
 I created a class with a private variable for useful data, used also based on events.
 In the constructor, the sports passed as a value at the time of the enqueue of filters.js and the bet are rendered.
 
---
+
 
 # Main functions
 
@@ -50,18 +49,18 @@ addToBet()
 getTotalStake() - getTotalWin()
 1. They calculate the respective sums based on the values entered in the cookie
 
---
+
 
 # Cookie data - expired in 1 day after last update
 {"type":"single","format":"fractal","region":"uk","data":[{"sport":"americanfootball_nfl","match":0,"commence_time":1580685600,"site":"betfair","h2h":0,"h2h_val":"1.870","stake":0,"win":0},{"sport":"aussierules_afl","match":0,"commence_time":1584606300,"site":"ladbrokes","h2h":0,"h2h_val":"4.000","stake":0,"win":0}],"multi_stake":""}
 
---
+
 
 # Filters/settings
 Odds format - Set the value view of the odds based on preference
 Region - Change region and do a new call
 
---
+
 
 # Conclusions
 I thought the calculator was the bet slip.
