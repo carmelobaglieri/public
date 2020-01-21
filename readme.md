@@ -1,4 +1,4 @@
-**Intro **
+# Intro
 
 Some of technologies specified in the task, exactly Webpack and templates engine, as said during the interview, they are not in my skills, therefore I could not use them in this small period.
 This was my first really complex plugin and, not being in the business, I interpretated the request due my comprension.
@@ -6,7 +6,7 @@ Ps: I powered this in twentynineteen theme.
 
 ---
 
-## Files
+# Files
 
 index.php - Define global vars, import required files, register scripts and styles and add the shortcodes.
 /admin/options.php - Add options in db and add a page in Wordpress setting menu.
@@ -19,7 +19,7 @@ index.php - Define global vars, import required files, register scripts and styl
 
 ---
 
-## Init
+# Init
 
 After activation the plugin, a valid API key is required valida in setting page.
 Here is possible also choose a favourite sport (sports loaded from json and stored in db), an auto-refresh of values loaded on front and adding fontawesome (I know this is not the right way).
