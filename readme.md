@@ -1,8 +1,6 @@
 # Intro
 
-Some of technologies specified in the task, exactly Webpack and templates engine, as said during the interview, they are not in my skills, therefore I could not use them in this small period.
-This was my first really complex plugin and, not being in the business, I interpretated the request due my comprension.
-Ps: I powered this in twentynineteen theme.
+I powered this in twentynineteen theme.
 
 
 # Files
